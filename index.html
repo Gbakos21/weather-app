@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Időjárás</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container" id="all">
+  <h1 class="text-center">Időjárás lekérdezés</h1>
+  <div class="form-group">
+    <label for="cityInput"><h2 class="h4">Város neve:</h2></label>
+    <input type="text" class="form-control" id="cityInput" placeholder="Pl.: Budapest">
+  </div>
+  <button type="button" class="btn btn-primary btn-lg" onclick="getWeather()">Időjárás lekérdezése</button>
+
+  <button type="button" class="btn btn-success btn-lg" onclick="getWeatherByLocation()">Tartózkodási helyem</button>
+
+  <div id="weather-container">
+    <h2 class="mt-4">Az időjárás:</h2>
+    
+    <p id="weather-result"> </p>
+  </div>
+</div>
+
+<script src="weather.js">
+  
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa;
+    background-image: url('walper.jpg');
+    background-size: cover; /* A háttérkép méretezése az ablak teljes területén */
+    background-position: top; /* A háttérkép pozíciója az ablak közepén */
+    
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  #weather-container {
+    display: none;
+    margin-top: 20px;
+  }
+
+  #all {
+    background-color: rgba(255, 255, 255, 0.578);
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+  #weather-icon {
+    display: inline;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
